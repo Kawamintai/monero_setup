@@ -5,10 +5,10 @@
 
 # How to use this script
 - Change the `file_path` variable to the location where your xmr-stak miner is located.
-- Run the script from the command line with the following parameters: number of cores to mine with, number of GPU's to mine with.
+- Using python 3, run the script from the command line with the following parameters: number of cores to mine with, number of GPU's to mine with.
 - Examples:
-	- `monero_setup.py 16 4` will enable 16 CPU cores to mine with and 4 GPU's.
-	- `monero_setup.py 12 3` will enable 12 CPU cores and 3 GPU's
+	- `python monero_setup.py 16 4` will enable 16 CPU cores to mine with and 4 GPU's.
+	- `python monero_setup.py 12 3` will enable 12 CPU cores and 3 GPU's
 
 ### A little background
 I created this script because I found myself constantly changing my cpu and gpu config files when I wanted to mine with only some of my computer's resources. I also enjoy writing python code, so this script was fun to write. This script has a very niche use case, but if you enjoy writing python code or want to learn, it can be a fun exercise to modify this script for your own use.
